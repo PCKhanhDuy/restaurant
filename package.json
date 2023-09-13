@@ -1,0 +1,16 @@
+{
+  "name": "asm_restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "duy": "json-server --watch db.json",
+    "start": "tsc src/app.ts --outDir dist --w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quản trị Admin</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/lg-web.webp">
+    <!-- Main CSS-->
+    <link rel="stylesheet" href="public/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- Font-icon css-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+</head>
+
+<body class="app sidebar-mini rtl">
+    <header class="app-header">
+        <ul class="app-nav">
+            <li><a class="app-nav__item" href=""><i class='bx bx-log-out bx-rotate-180'></i> </a></li>
+        </ul>
+    </header>
+    <!-- Sidebar menu-->
+    <aside class="app-sidebar">
+        <p class="app-sidebar__user-name"><b>Admin</b></p>
+        </div>
+        </div>
+        <hr>
+        <ul class="app-menu">
+            <li>
+                <a class="app-menu__item active" href="dashboard.html">
+                    <i class='app-menu__icon bx bx-tachometer'></i>
+                    <span class="app-menu__label">Bảng điều khiển</span>
+                </a>
+            </li>
+            <li>
+                <a class="app-menu__item" href="index.php?act=addcate">
+                    <i class='app-menu__icon bx bx-user-voice'></i>
+                    <span class="app-menu__label">Quản lý danh mục</span>
+                </a>
+            </li>
+            <li>
+                <a class="app-menu__item" href="list_pro.html">
+                    <i class='app-menu__icon bx bx-purchase-tag-alt'></i>
+                    <span class="app-menu__label">Quản lý sản phẩm</span>
+                </a>
+            </li>
+            <li>
+                <a class="app-menu__item" href="index.php?act=listbill">
+                    <i class='app-menu__icon bx bx-task'></i>
+                    <span class="app-menu__label">Quản lý đơn hàng</span>
+                </a>
+            </li>
+            <li>
+                <a class="app-menu__item" href="index.php?act=list_user">
+                    <i class='app-menu__icon bx bx-user-voice'></i>
+                    <span class="app-menu__label">Quản lý khách hàng</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <main class="app-content">
+        <div class="app-title">
+            <ul class="app-breadcrumb breadcrumb">
+                <!-- <li class="breadcrumb-item">Danh sách danh mục </li> -->
+                <li class="breadcrumb-item"><a href="#">Cập nhật sản phẩm</a></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tile">
+                    <div class="tile-body" id="result">
+                        <!-- <form action="" method="PUT">
+                            <div class="row">
+                                <div class="form-group col-md-3">
+                                    <label class="control-label">Tên món ăn</label>
+                                    <input class="form-control" type="text" name="name" id="name">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label class="control-label">Giá</label>
+                                    <input class="form-control" type="number" name="price" id="price">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label class="control-label">Hình ảnh</label>
+                                    <input class="form-control" type="text" name="image" id="image">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label class="control-label">Mô tả</label>
+                                    <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label class="control-label">Danh Mục</label>
+                                </div>
+                            </div>
+                            <input class="btn btn-save" type="submit" value="Cập nhật">
+                            <input class="btn btn-cancel" type="reset" value="Nhập lại"> <br>
+                            <a href="list_pro.html">
+                                <input class="btn btn-show" type="button" value="Danh sách sản phẩm">
+                            </a>
+                        </form>
+                         -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="javascript/app.js" defer></script>
+</body>
+
+</html>

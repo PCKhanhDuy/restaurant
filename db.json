@@ -1,0 +1,74 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "name": "Hambuger",
+      "price": 115,
+      "image": "https://i.pinimg.com/564x/01/a8/b2/01a8b20022d3ac8d1c0ad960e7b67466.jpg",
+      "description": "Đây là hambuger"
+    },
+    {
+      "id": 2,
+      "name": "Hotdog",
+      "price": 115,
+      "image": "https://i.pinimg.com/564x/3d/43/b5/3d43b5816213b46616e178174f2c2dbb.jpg",
+      "description": "Đây là hotdog"
+    },
+    {
+      "id": 3,
+      "name": "Tokbokki",
+      "price": 115,
+      "image": "https://i.pinimg.com/564x/2c/13/61/2c1361b4fe44bd0147fb9359640a1ee9.jpg",
+      "description": "Đây là Tokbokki"
+    },
+    {
+      "id": 4,
+      "name": "Gà chiên nước mắm",
+      "price": 115,
+      "image": "https://i.pinimg.com/564x/df/a2/aa/dfa2aaed125bf7fb63a6c37dea020c41.jpg",
+      "description": "đây là gà chiên nước mắm"
+    },
+    {
+      "id": 5,
+      "name": "Gà viên",
+      "price": 115,
+      "image": "https://i.pinimg.com/564x/9d/90/0b/9d900bac68870ac6df8265cebf6e599e.jpg",
+      "description": "đây là gà viên"
+    },
+    {
+      "id": 6,
+      "name": "Mì xào hải sản",
+      "price": 115,
+      "image": "https://i.pinimg.com/564x/cf/ee/ab/cfeeabce833264bb39ec57b5aea514e1.jpg",
+      "description": "Đâyy là mì xào"
+    },
+    {
+      "id": 7,
+      "name": "Pizza",
+      "price": 115,
+      "image": "https://i.pinimg.com/564x/3c/8f/e6/3c8fe65a310b115dba3242b0363d7002.jpg",
+      "description": "đây là pizza"
+    },
+    {
+      "id": 8,
+      "name": "Combo gà cay",
+      "price": 115,
+      "image": "https://i.pinimg.com/564x/d5/29/23/d5292315af48c45541151050c984334c.jpg",
+      "description": "đây là combo gà cay"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Tên người dùng",
+      "email": "email@example.com",
+      "phone": "0123456789"
+    },
+    {
+      "id": 2,
+      "name": "Tên người dùng khác",
+      "email": "another@example.com",
+      "phone": "0987654321"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Quản trị Admin</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/lg-web.webp">
+  <!-- Main CSS-->
+  <link rel="stylesheet" href="public/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- or -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!-- Font-icon css-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+</head>
+
+<body class="app sidebar-mini rtl">
+  <header class="app-header">
+    <ul class="app-nav">
+      <li><a class="app-nav__item" href="../index.php"><i class='bx bx-log-out bx-rotate-180'></i> </a></li>
+    </ul>
+  </header>
+  <!-- Sidebar menu-->
+  <aside class="app-sidebar">
+    <p class="app-sidebar__user-name"><b>Admin</b></p>
+    <hr>
+    <ul class="app-menu">
+      <li>
+        <a class="app-menu__item" href="dashboard.html">
+          <i class='app-menu__icon bx bx-tachometer'></i>
+          <span class="app-menu__label">Bảng điều khiển</span>
+        </a>
+      </li>
+      <li>
+        <a class="app-menu__item" href="index.php?act=addcate">
+          <i class='app-menu__icon bx bx-user-voice'></i>
+          <span class="app-menu__label">Quản lý danh mục</span>
+        </a>
+      </li>
+      <li>
+        <a class="app-menu__item active" href="pro_ad.html">
+          <i class='app-menu__icon bx bx-purchase-tag-alt'></i>
+          <span class="app-menu__label">Quản lý thực đơn</span>
+        </a>
+      </li>
+      <li>
+        <a class="app-menu__item" href="index.php?act=listbill">
+          <i class='app-menu__icon bx bx-task'></i>
+          <span class="app-menu__label">Quản lý đơn đặt bàn</span>
+        </a>
+      </li>
+      <li>
+        <a class="app-menu__item" href="index.php?act=list_user">
+          <i class='app-menu__icon bx bx-user-voice'></i>
+          <span class="app-menu__label">Quản lý khách hàng</span>
+        </a>
+      </li>
+    </ul>
+  </aside>
+  <main class="app-content">
+    <div class="app-title">
+      <ul class="app-breadcrumb breadcrumb side">
+        <li class="breadcrumb-item active"><a href="#"><b>Danh sách sản phẩm</b></a></li>
+      </ul>
+      <div id="clock"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="tile">
+          <div class="tile-body">
+            <div class="row element-button">
+              <div class="col-sm-2">
+
+                <a class="btn btn-add btn-sm" href="add_pro.html" title="Thêm"><i class="fas fa-plus"></i>
+                  Thêm sản phẩm</a>
+              </div>
+              <div class="col-sm-2">
+                <a class="btn btn-delete btn-sm" type="button"><i class="fas fa-copy"></i> Xóa tất cả</a>
+              </div>
+            </div>
+            <table class="table table-hover table-bordered" id="sampleTable">
+              <thead>
+                <tr>
+                  <th width="10"><input type="checkbox" id="all"></th>
+                  <th>Mã sản phẩm</th>
+                  <th>Tên sản phẩm</th>
+                  <th>Hình ảnh</th>
+                  <th>Giá</th>
+                  <th>Chức năng</th>
+                </tr>
+              </thead>
+              <tbody class="list" id="listfood">
+                <!-- <tr>
+                    <td><input type="checkbox" name=""></td>
+                    <td>11</td>
+                    <td>Đồng hồ</td>
+                    <td><img src="images/w1.webp" alt="" style="width: 100px;"></td>
+                    <td>$50</td>
+                    <td>
+                        <a href="#"> 
+                        <button class="btn btn-primary btn-sm trash" type="button" title="Xóa"><i class="fas fa-trash-alt"></i></button></a>
+                        <a href="#"> 
+                        <button class="btn btn-primary btn-sm edit" type="button" title="Sửa"><i class="fa fa-edit"></i></button></td></a> 
+                  </tr> -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="javascript/app.js"></script>
+</body>
+
+</html>
